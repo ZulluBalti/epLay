@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next",
     "prod": "next prod"
   },
   "author": "Zullu Balti",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "next": "^9.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"

@@ -1,8 +1,12 @@
 import Main from '../components/Main';
+import Head from 'next/head';
 
 const App = () => {
     return (
         <div>
+            <Head>
+                <title>EpLay</title>
+            </Head>
             <header>
                 <h1>EpLay</h1>
             </header>
@@ -43,6 +47,9 @@ const App = () => {
                     bottom: 0;
                     left: 0;
                     width: 100%;
+                }
+                .highlight {
+                        color: #0caf96;
                 }
 
             `}</style>

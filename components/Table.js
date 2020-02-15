@@ -1,14 +1,17 @@
 import ClassRoom from './ClassRoom';
 import EmptyRoom from './EmptyRoom';
+import Spinner from '../components/Spinner';
 
-export default ({data}) => {
+export default ({isLoading, whichOne, classInfo, rooms}) => {
     let markup;
-    if (data.isLoading) 
-        markup = <div className="loader">Loading...</div>;
-    else if (data.whichOne === 'emptyRoom')
-        markup = <EmptyRoom rooms={data.rooms}/>;
-    else if(data.whichOne === 'hasClass')
-        markup = <ClassRoom roomNumber={data.class.roomNumber} time={data.class.time} />;
+    if (!isLoading && !whichOne)
+        return null;
+    else if (isLoading) 
+        markup = <Spinner />;
+    else if (whichOne === 'emptyRoom')
+        markup = <EmptyRoom rooms={rooms}/>;
+    else if(whichOne === 'hasClass')
+        markup = <ClassRoom classInfo={classInfo} />;
     
     return (
         <section>
@@ -21,6 +24,8 @@ export default ({data}) => {
                     border-radius: 5px;
                     margin-bottom: 50px;
                     overflow: auto;
+                    position: relative;
+                    min-height: 100px;
                 }
                
                 @media (min-width: 500px) {

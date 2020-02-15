@@ -1,36 +1,40 @@
 import  Form from './Form';
 import  Table from './Table';
 import {useState} from 'react';
+import axios from 'axios';
 
 const Main = () => {
-    const [info, changeInfo] = useState({year: "fa19", faculty: '', section: ''});
-    const [data, changeData] = useState({isLoading: false, rooms: [], class: {roomNumber: null, time: null}, whichOne: null});
+    const [info, changeInfo] = useState({year: "fa19", faculty: 'bcs', section: '1d'});
+    const [isLoading, toggleLoading] = useState(false);
+    const [classInfo, setClassInfo] = useState({
+                                    roomNumber: null,
+                                    timimg: null, 
+                                    class: '', 
+                                    address: '',
+                                    hasClass: null
+                                });
+    const [whichOne, setOne] = useState(null);
+    const [rooms, setRooms] = useState([]);
+    const [errors, setErrors] = useState(null);
 
-    const submit = (what) => {
-        changeData({...data, isLoading: true});
+    const submit = async (what) => {
+        toggleLoading(true);
         if(what === 'emptyRoom'){
-            setTimeout(() => {
-                changeData({
-                    ...data,
-                    rooms:[
-                        {roomNumber: 321, address: "Quid-e-azam block"},
-                        {roomNumber: 184, address: "Alama Iqbal block"},
-                        {roomNumber: 189, address: "Alama Iqbal block"},
-                        {roomNumber: 222, address: "Zullu block"}
-                    ],
-                    whichOne: "emptyRoom",
-                    isLoading:false
-                });
-            }, 3000);
+            setOne('emptyRoom');
+            const res = await axios.get('/api/emptyRoom');
+            const json = res.data;
+            if (json.error)
+                setErrors(json.error);
+            else
+                setRooms(json);
+            toggleLoading(false);
         }else if(what === 'hasClass') {
-            setTimeout(() => {
-                changeData({
-                    ...data,
-                    class: {roomNumber: 303, time: "12:00"},
-                    isLoading:false,
-                    whichOne: "hasClass"
-                });
-            }, 3000);
+            setOne('hasClass');
+            const url = `/api/classRoom?year=${info.year}&faculty=${info.faculty}&section=${info.section}`;
+            const res = await axios.get(url);
+            const json = res.data;
+            setClassInfo(json);
+            toggleLoading(false);
         }
     }
 
@@ -38,7 +42,13 @@ const Main = () => {
         <main>
             <div>
                 <Form onSubmit={submit} info={info} changeInfo={changeInfo}/>
-                <Table data={data} />
+                <Table 
+                    isLoading={isLoading} 
+                    classInfo={classInfo} 
+                    whichOne={whichOne}
+                    rooms={rooms}
+                    errors={errors}
+                />
             </div>
             <style jsx>{`
                 div {
@@ -47,7 +57,7 @@ const Main = () => {
                     padding: 1rem;
                 }
                 main {
-                    background: #333;
+                    background: #171515;
                     min-height: calc(100vh - 50px - 70px);
                 }
             `}
