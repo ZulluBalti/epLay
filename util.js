@@ -1,11 +1,12 @@
 export default function whichSlot(){
     const time = new Date();
     const hour = time.getHours();
-    // const hour = 15;
     const min = time.getMinutes();
 
-    if (hour < 8 || hour >= 17 || (hour === 8 && min < 30) || (hour === 16 && hour > 30))
-        return res.status(400).json({error: "Hey, are you even in the university?"})
+    if (hour < 8 || hour >= 17 || (hour === 8 && min < 30) || (hour === 16 && hour > 30)){
+
+        // return res.status(400).json({error: "Hey, are you even in the university?"})
+    }
 
     let slot = 0;
 
