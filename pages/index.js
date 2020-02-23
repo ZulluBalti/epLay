@@ -11,7 +11,17 @@ const App = () => {
                 <h1>EpLay</h1>
             </header>
             <Main />
-            <footer>Made by Zullu Balti</footer>
+            <footer>
+                <p>
+                Made by <a href="https://www.twitter.com/zullubalti" target="_blank"><span className="leader">Zullu Balti</span></a>
+                </p>
+                <p>
+                    Co-Founders: 
+                    <a href="https://www.twitter.com/zullubalti" target="_blank"><span className="co-founders">Shahzad Balagari</span></a>
+
+                    <a href="https://www.twitter.com/zullubalti" target="_blank"><span className="co-founders">Muhammed Haris</span></a>
+                </p>
+            </footer>
 
             <style jsx global>{`
                 * {
@@ -22,6 +32,7 @@ const App = () => {
                 :root {
                     --primary-color: #000;
                     --secondary-color: #fff;
+                    --green: #0caf96;
                 } 
                 *::-webkit-scrollbar {
                     width: 5px;
@@ -48,8 +59,25 @@ const App = () => {
                     left: 0;
                     width: 100%;
                 }
+                footer p:first-child {
+                    margin-bottom: 1rem;
+                }
                 .highlight {
-                        color: #0caf96;
+                    color: #0caf96;
+                }
+                a {
+                    text-decoration: none;
+                }
+                .leader {
+                    color: var(--green);
+                }
+                .co-founders {
+                    color: #a586ff;
+                    margin: 0 1rem;
+                }
+                .leader:hover,
+                .co-founders:hover{
+                    opacity: 0.8
                 }
 
             `}</style>

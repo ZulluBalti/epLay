@@ -84,3 +84,5 @@ bankB.addFloor('', '', [
 ]);
 
 list.push(bankB);
+
+export default () => console.log("Iron")
