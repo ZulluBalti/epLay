@@ -7,89 +7,89 @@ class Schedule {
         this.fri = [[],[],[],[],[]];
     }
 
-    mon1st(roomNumber, faculty, year, section, lecture, address) {
-        this.mon[0].push({roomNumber, faculty, year, section, lecture, address});
+    mon1st(roomNumber, faculty, section, lecture) {
+        this.mon[0].push({roomNumber, faculty, section, lecture});
     }
-    mon2nd(roomNumber, faculty, year, section, lecture, address) {
-        this.mon[1].push({roomNumber, faculty, year, section, lecture, address});
+    mon2nd(roomNumber, faculty, section, lecture) {
+        this.mon[1].push({roomNumber, faculty, section, lecture});
     }
-    mon3rd(roomNumber, faculty, year, section, lecture, address) {
-        this.mon[2].push({roomNumber, faculty, year, section, lecture, address});
+    mon3rd(roomNumber, faculty, section, lecture) {
+        this.mon[2].push({roomNumber, faculty, section, lecture});
     }
-    mon4th(roomNumber, faculty, year, section, lecture, address) {
-        this.mon[3].push({roomNumber, faculty, year, section, lecture, address});
+    mon4th(roomNumber, faculty, section, lecture) {
+        this.mon[3].push({roomNumber, faculty, section, lecture});
     }
-    mon5th(roomNumber, faculty, year, section, lecture, address) {
-        this.mon[4].push({roomNumber, faculty, year, section, lecture, address});
+    mon5th(roomNumber, faculty, section, lecture) {
+        this.mon[4].push({roomNumber, faculty, section, lecture});
     }
 
     // Tuesday
 
-    tue1st(roomNumber, faculty, year, section, lecture, address) {
-        this.tue[0].push({roomNumber, faculty, year, section, lecture, address});
+    tue1st(roomNumber, faculty, section, lecture) {
+        this.tue[0].push({roomNumber, faculty, section, lecture});
     }
-    tue2nd(roomNumber, faculty, year, section, lecture, address) {
-        this.tue[1].push({roomNumber, faculty, year, section, lecture, address});
+    tue2nd(roomNumber, faculty, section, lecture) {
+        this.tue[1].push({roomNumber, faculty, section, lecture});
     }
-    tue3rd(roomNumber, faculty, year, section, lecture, address) {
-        this.tue[2].push({roomNumber, faculty, year, section, lecture, address});
+    tue3rd(roomNumber, faculty, section, lecture) {
+        this.tue[2].push({roomNumber, faculty, section, lecture});
     }
-    tue4th(roomNumber, faculty, year, section, lecture, address) {
-        this.tue[3].push({roomNumber, faculty, year, section, lecture, address});
+    tue4th(roomNumber, faculty, section, lecture) {
+        this.tue[3].push({roomNumber, faculty, section, lecture});
     }
-    tue5th(roomNumber, faculty, year, section, lecture, address) {
-        this.tue[4].push({roomNumber, faculty, year, section, lecture, address});
+    tue5th(roomNumber, faculty, section, lecture) {
+        this.tue[4].push({roomNumber, faculty, section, lecture});
     }
 
     // Webnesday
-    wed1st(roomNumber, faculty, year, section, lecture, address) {
-        this.wed[0].push({roomNumber, faculty, year, section, lecture, address});
+    wed1st(roomNumber, faculty, section, lecture) {
+        this.wed[0].push({roomNumber, faculty, section, lecture});
     }
-    wed2nd(roomNumber, faculty, year, section, lecture, address) {
-        this.wed[1].push({roomNumber, faculty, year, section, lecture, address});
+    wed2nd(roomNumber, faculty, section, lecture) {
+        this.wed[1].push({roomNumber, faculty, section, lecture});
     }
-    wed3rd(roomNumber, faculty, year, section, lecture, address) {
-        this.wed[2].push({roomNumber, faculty, year, section, lecture, address});
+    wed3rd(roomNumber, faculty, section, lecture) {
+        this.wed[2].push({roomNumber, faculty, section, lecture});
     }
-    wed4th(roomNumber, faculty, year, section, lecture, address) {
-        this.wed[3].push({roomNumber, faculty, year, section, lecture, address});
+    wed4th(roomNumber, faculty, section, lecture) {
+        this.wed[3].push({roomNumber, faculty, section, lecture});
     }
-    wed5th(roomNumber, faculty, year, section, lecture, address) {
-        this.wed[4].push({roomNumber, faculty, year, section, lecture, address});
+    wed5th(roomNumber, faculty, section, lecture) {
+        this.wed[4].push({roomNumber, faculty, section, lecture});
     }
     
     // Thursday
-    thu1st(roomNumber, faculty, year, section, lecture, address) {
-        this.thu[0].push({roomNumber, faculty, year, section, lecture, address});
+    thu1st(roomNumber, faculty, section, lecture) {
+        this.thu[0].push({roomNumber, faculty, section, lecture});
     }
-    thu2nd(roomNumber, faculty, year, section, lecture, address) {
-        this.thu[1].push({roomNumber, faculty, year, section, lecture, address});
+    thu2nd(roomNumber, faculty, section, lecture) {
+        this.thu[1].push({roomNumber, faculty, section, lecture});
     }
-    thu3rd(roomNumber, faculty, year, section, lecture, address) {
-        this.thu[2].push({roomNumber, faculty, year, section, lecture, address});
+    thu3rd(roomNumber, faculty, section, lecture) {
+        this.thu[2].push({roomNumber, faculty, section, lecture});
     }
-    thu4th(roomNumber, faculty, year, section, lecture, address) {
-        this.thu[3].push({roomNumber, faculty, year, section, lecture, address});
+    thu4th(roomNumber, faculty, section, lecture) {
+        this.thu[3].push({roomNumber, faculty, section, lecture});
     }
-    thu5th(roomNumber, faculty, year, section, lecture, address) {
-        this.thu[4].push({roomNumber, faculty, year, section, lecture, address});
+    thu5th(roomNumber, faculty, section, lecture) {
+        this.thu[4].push({roomNumber, faculty, section, lecture});
     }
 
     // Friday
-    fri1st(roomNumber, faculty, year, section, lecture, address) {
-        this.fri[0].push({roomNumber, faculty, year, section, lecture, address});
+    fri1st(roomNumber, faculty, section, lecture) {
+        this.fri[0].push({roomNumber, faculty, section, lecture});
     }
-    fri2nd(roomNumber, faculty, year, section, lecture, address) {
-        this.fri[1].push({roomNumber, faculty, year, section, lecture, address});
+    fri2nd(roomNumber, faculty, section, lecture) {
+        this.fri[1].push({roomNumber, faculty, section, lecture});
     }
-    fri3rd(roomNumber, faculty, year, section, lecture, address) {
-        this.fri[2].push({roomNumber, faculty, year, section, lecture, address});
+    fri3rd(roomNumber, faculty, section, lecture) {
+        this.fri[2].push({roomNumber, faculty, section, lecture});
     }
-    fri4th(roomNumber, faculty, year, section, lecture, address) {
-        this.fri[3].push({roomNumber, faculty, year, section, lecture, address});
+    fri4th(roomNumber, faculty, section, lecture) {
+        this.fri[3].push({roomNumber, faculty, section, lecture});
     }
-    fri5th(roomNumber, faculty, year, section, lecture, address) {
-        this.fri[4].push({roomNumber, faculty, year, section, lecture, address});
+    fri5th(roomNumber, faculty, section, lecture) {
+        this.fri[4].push({roomNumber, faculty, section, lecture});
     }
 }
 
@@ -574,7 +574,6 @@ nS.tue4th("LH-301", "BSE", "6A", "Human Comp. Inter");
 nS.tue4th("LH-502", "BSE", "7A", "S/W Design And Archi.");
 nS.tue4th("LH-106", "BSE", "8B", "French");
 
-
 // Tuesday Fifth Slot
 nS.tue5th("407", "BCE", "2A", "Differential Equation");
 nS.tue5th("Hydraulics Lab", "BCE", "4A", "Advanced FM Lab");
@@ -623,8 +622,543 @@ nS.tue5th("LH-304", "BSE", "5B", "Scripting Languages (Lab)");
 nS.tue5th("LH-502", "BSE", "7B", "S/W Design And Archi.");
 
 
+//First Slot - Wednesday
+
+nS.wed1st("lab-2", "bcs" ,  "1A" , "intro to ict(lab)");
+nS.wed1st("lab-5", "bcs" ,  "1B" , "intro to ict(lab)");
+ns.wed1st("104","bcs","2D","prof.practice.IT");
+ns.wed1st("101","bcs","3B","OOP");
+ns.wed1st("106","bcs","3C","Linear algebra");
+ns.wed1st("108","bcs","4A","stat and prob theory");
+ns.wed1st("lab-3","bcs","4B","Data base sys.1(lab)");
+ns.wed1st("102","bcs","5C","visual programming");
+ns.wed1st("105","bcs","5D","differential.equation");
+ns.wed1st("501","bcs","6C","soft.pro.t Mgt");
+ns.wed1st("lab-6","bcs","6D","web technology(lab)");
+ns.wed1st("lab-5","bcs","6E","data ware and data mining(lab)");
+
+ns.wed1st("304","bcs","8C","net.security");
+ns.wed1st("303","bse","1A","Eng. Comp. & Composition");
+ns.wed1st("bse","1B","");
+ns.wed1st("Phy & Circuit Anal. Lab","bse","2A","ECA I (Lab)");
+ns.wed1st("103","bse","2B","Multi. Calculus");
+ns.wed1st("EMI & Electronics Lab","bse","2C","ECA I (Lab)");
+ns.wed1st("409","bse","3A","DLD");
+ns.wed1st("302","bse","4B","Database Systems I");
+ns.wed1st("Lab-1","bse","5B","Operating Systems (Lab)");
+ns.wed1st("408","bse","6A","Human Comp. Inter.");
+ns.wed1st("107","bse","6B","Artificial Intelligence");
+
+ns.wed1st("106","bse","8A","Enterpreneurship");
+ns.wed1st("Lab-2","mcs","mcs-1","Intro. to ICT (Lab)");
+ns.wed1st("102","mcs","mcs-3","");
+ns.wed1st("501","mcs","mcs-4","Soft. Pro.t Mgt");
+ns.wed1st("LH-202","bee","2C","Tutorial 2C");
+ns.wed1st("LH-204","bee","4A","Multivariable.cal");
+ns.wed1st("LH-207","bee","4B","Multivariable.cal");
+ns.wed1st("LH-201","bee","4C","Machines");
+ns.wed1st("LH-207","bee","6C","Contorl Sys");
+ns.wed1st("LH-203","bee","6D","AFD");
+
+ns.wed1st("WorkShop Lab","BS(ME)","2A","Workshop Practice");
+ns.wed1st("603","BS(ME)","2B","Multivariable.cal");
+ns.wed1st("601","BS(ME)","4A","Statistics and Probability Theory");
+ns.wed1st("402","CE","2A","ITCP");
+ns.wed1st("406","CE","4A","Advanced FM");
+ns.wed1st("407","CE","4B","Mechanics of Solids");
+ns.wed1st("401","CE","6A","Highway Engg.");
+ns.wed1st("406","CE","10A","Advanced FM");
+ns.wed1st("406","CE","12","Advanced FM");
+
+//2nd slot wednesday
+
+nS.wed2nd("Lab-2","bcs","1A","Intro. to ICT (Lab)");
+nS.wed2nd("LH-404","bcs","1C","Eng. Comp. & Composition");
+nS.wed2nd("LH-410","bcs","2B","Programming Fundamentals");
+nS.wed2nd("LH-106","bcs","2D","Multi. Calculus");
+nS.wed2nd("LH-104","bcs","3A","OOP");
+nS.wed2nd("DLD Lab","bcs","3B","DLD (Lab)");
+nS.wed2nd("LH-409","bcs","3C","S/W Engr. Concepts");
+nS.wed2nd("LH-103","bcs","3D","S/W Engr. Concepts");
+nS.wed2nd("LH-102","bcs","4A","Computer Architecture");
+nS.wed2nd("Lab-3","bcs","4B","Database Sys. I (Lab)");
+nS.wed2nd("Lab-4","bcs","5D","Micropro. and Assembly Language (Lab)");
+nS.wed2nd("LH-408","bcs","6A","Computer Vision");
+nS.wed2nd("Lab 6","bcs","6D","Lab 6");
+nS.wed2nd("Lab-5","bcs","6E","Data Ware. and Data Mining (Lab)");
+nS.wed2nd("LH-303","bcs","7A","Numerical Comput.");
+nS.wed2nd("LH-303","bcs","7B","Numerical Comput.");
+nS.wed2nd("LH-302","bcs","7C","Compiler Construction");
+nS.wed2nd("LH-302","bcs","7D","Compiler Construction");
+nS.wed2nd("LH-108","bcs","8A","HRM");
+
+nS.wed2nd("Phy & Circuit Anal. Lab","bse","2A","ECA I (Lab)");
+nS.wed2nd("LH-304","bse","2B","Prof. Practices IT");
+nS.wed2nd("EMI & Electronics Lab","bse","2C","ECA I (Lab)");
+nS.wed2nd("LH-105","bse","3B","DLD");
+
+nS.wed2nd("LH-502","bse","4B","Comm. Skills");
+nS.wed2nd("LH-501","bse","5A","Soft. Qual. Engr.");
+nS.wed2nd("Lab-1","bse","5B","Operating Systems (Lab)");
+nS.wed2nd("LH-109","bse","6A","Artificial Intelligence");
+nS.wed2nd("LH-409","bse","6B","Human Comp. Inter.");
+nS.wed2nd("LH-107","bse","7A","Data Mining");
+nS.wed2nd("LH-107","bse","7B","Data Mining");
+nS.wed2nd("LH-108","bse","8A","HRM");
+
+nS.wed2nd("Lab-2","mcs","mcs-1","Intro. to ICT (Lab)");
+nS.wed2nd("LH-102","mcs","mcs-3","Computer Architecture");
+nS.wed2nd("LH-109","mcs","mcs-4","Artificial Intelligence");
+
+ns.wed2nd("LH-208","bee","2A","DLD");
+ns.wed2nd("LH-201","bee","2B","Pak Studies");
+ns.wed2nd("LH-205","bee","2C","DLD");
+ns.wed2nd("LH-202","bee","4A","S & S");
+ns.wed2nd("DSP Lab","bee","4B","S & S Lab");
+ns.wed2nd("LH-209","bee","4C","S & S");
+ns.wed2nd("LH-206","bee","6A","Contorl Sys");
+ns.wed2nd("LH-206","bee","6B","Contorl Sys");
+ns.wed2nd("LH-203","bee","6C","PG");
+ns.wed2nd("Adv. Electro Lab","bee","6D","AFDL");
+ns.wed2nd("LH-207","bee","8A","Pak Studies");
+ns.wed2nd("LH-207","bee","8B","Pak Studies");
+
+ns.wed2nd("WorkShop Lab","BS(ME)","2A","Workshop Practice");
+ns.wed2nd("603","BS(ME)","4A","Circuits and Electronics"); 
+ns.wed2nd("601","BS(ME)","4B","Statistics and Probability Theory");
+ns.wed2nd("Computer Lab 7","CE","2A","ITCP Lab");
+ns.wed2nd("402","CE","2B","Engineering Geology");
+ns.wed2nd("401","CE","4A","Basic Structural Analysis");
+ns.wed2nd("407","CE","4B","Geotech");
+ns.wed2nd("403","CE","6A","CAD");
+ns.wed2nd("403","CE","10A","CAD");
+
+nS.wed3rd("LH-102","bcs","1A","Eng. Comp. & Composition");
+nS.wed3rd("LH-304","bcs","1C","App. Phy. for Engrs.");
+nS.wed3rd("LH-408","bcs","2A","Prof. Practices IT");
+nS.wed3rd("LH-104","bcs","2B","Electricity, Magnetism and Optics");
+nS.wed3rd("Lab-4","bcs","2C","Progr. Fundamentals (Lab)");
+nS.wed3rd("LH-303","bcs","3A","Linear Algebra");
+nS.wed3rd("LH-108","bcs","3B","OOP");
+nS.wed3rd("LH-102","bcs","3C","S/W Engr. Concepts");
+nS.wed3rd("LH-411","bcs","4B","Database Systems I");
+nS.wed3rd("LH-301","bcs","5A","Differential Equations");
+nS.wed3rd("LH-301","bcs","5C","Differential Equations");
+nS.wed3rd("LH-404","bcs","5D","Differential Equations");
+nS.wed3rd("LH-408","bcs","6B","Computer Vision");
+nS.wed3rd("Lab-8","bcs","6C","Mobile App. Dev. (Lab)");
+nS.wed3rd("LH-116","bcs","6D","Human Comp. Inter.");
+nS.wed3rd("LH-302","bcs","6E","Intro. to Data Science");
+nS.wed3rd("LH-301","bcs","7A","Artificial Intelligence");
+nS.wed3rd("LH-301","bcs","7B","Artificial Intelligence");
+nS.wed3rd("LH-501","bcs","8A","French");
+nS.wed3rd("LH-101","bse","1A","Intro. to ICT");
+nS.wed3rd("LH-108","bse","1B","Eng. Comp. & Composition");
+nS.wed3rd("LH-106","bse","2A","Multi. Calculus");
+nS.wed3rd("LH-405","bse","2B","Discrete Structures");
+nS.wed3rd("LH-502","bse","2C","Discrete Structures");
+nS.wed3rd("LH-105","bse","3B","OOP");
+nS.wed3rd("LH-304","bse","4A","Database Systems I");
+nS.wed3rd("Lab-1","bse","4B","Object Orient. Soft. Engr.(Lab)");
+nS.wed3rd("Lab-5","bse","5A","Scripting Languages (Lab)");
+nS.wed3rd("LH-405","bse","6A","Machine Learning");
+nS.wed3rd("Lab-5","bse","6B","HCI (Lab)");
+nS.wed3rd("LH-107","bse","7A","Data Mining");
+nS.wed3rd("LH-107","bse","7B","Data Mining");
+nS.wed3rd("LH-501","bse","8A","French");
+nS.wed3rd("LH-409","bse","8C","Formal Methods in SE");
+
+nS.wed3rd("LH-411","mcs","mcs-2","Microprocessor and Assembly Language");
+nS.wed3rd("LH-116","mcs","mcs-4","Mobile Application Development");
+ns.wed3rd("LH-204","bee","2A","IPE");
+ns.wed3rd("LH-202","bee","2B","DLD");
+ns.wed3rd("DSP Lab","bee","4B","S & S Lab");
+ns.wed3rd("LH-201","bee","6A","Engineering Economics");
+
+ns.wed3rd("Adv. Electro Lab","bee","6D","AFDL");
+ns.wed3rd("LH-209","bee","8A","Project Managment & Planning");
+ns.wed3rd("LH-209","bee","8B","Project  Managment & Planning");
+ns.wed3rd("Auditorium","bee","8C","Pak Studies");
+ns.wed3rd("Auditorium","bee","8D","Pak Studies");
+ns.wed3rd("603","BS(ME)","2A","Engineering Statics");
+ns.wed3rd("WorkShop Lab","BS(ME)","2B","Workshop Practice");
+
+ns.wed3rd("Computer Lab 7","CE","2A","ITCP Lab");
+ns.wed3rd("401","CE","2B","Communication Skills");
+ns.wed3rd("Geotech","CE","4A","Geotech Lab");
+ns.wed3rd("403","CE","4B","NC");
+ns.wed3rd("402","CE","6A","PPM");
+ns.wed3rd("407","CE","6B","402");
+ns.wed3rd("FYP","CE","8A","FYP");
+ns.wed3rd("FYP","CE","8B","FYP");
+ns.wed3rd("407","CE","10A","Water Supply");
+
+nS.wed4th("EMI & Electronics Lab","bcs","1B","App. Phy. for Engrs.(Lab)");
+nS.wed4th("Lab 6","bcs","1C","Intro. to ICT (Lab)");
+nS.wed4th("LH-101","bcs","2A","Multi. Calculus");
+nS.wed4th("Lab-4","bcs","2B","Progr. Fundamentals (Lab)");
+nS.wed4th("LH-105","bcs","2C","Discrete Structures");
+nS.wed4th("LH-102","bcs","3C","DLD");
+nS.wed4th("LH-405","bcs","4A","Comm. Skills");
+nS.wed4th("LH-502","bcs","5A","DIP");
+nS.wed4th("Lab 7","bcs","6A","HCI (Lab)");
+nS.wed4th("Lab-2","bcs","6C","Web Technologies (Lab)");
+nS.wed4th("LH-502","bcs","6D","Pakistan Studies");
+nS.wed4th("LH-109","bcs","7B","Systems and Networks Administration");
+nS.wed4th("LH-107","bcs","7C","Numerical Comput.");
+nS.wed4th("LH-107","bcs","7D","Numerical Comput.");
+nS.wed4th("LH-106","bcs","8B","French");
+
+nS.wed4th("bse","1A","");
+nS.wed4th("LH-108","bse","1B","Intro. to ICT");
+nS.wed4th("LH-116","bse","2A","Multi. Calculus");
+nS.wed4th("Lab-1","bse","3A","");
+nS.wed4th("LH-409","bse","3B","Linear Algebra");
+nS.wed4th("LH-302","bse","4A","Comm. Skills");
+
+nS.wed4th("Lab-5","bse","5A","Scripting Languages (Lab)");
+nS.wed4th("LH-304","bse","6A","S/W Design and Archi");
+nS.wed4th("LH-301","bse","7A","S/W Eng. Economics");
+nS.wed4th("LH-404","bse","8C","HRM");
+nS.wed4th("LH-105","mcs","mcs-1","Discrete Structures");
+ns.wed4th("LH-206","bee","2A","Pak Studies");
+ns.wed4th("LH-201","bee","2B","Pak Studies");
+ns.wed4th("LH-201","bee","2C","Pak Studies");
+ns.wed4th("Adv.Electro Lab","bee","4B","Electronics II Lab");
+ns.wed4th("DSP Lab ","bee","4C","S & S Lab");
+ns.wed4th("control & Inst. Lab","bee","6A","Control Lab");
+ns.wed4th("control & Inst. Lab","bee","6B","Control Lab");
+ns.wed4th("LH-208","bee","6C","Engineering Economics");
+ns.wed4th("LH-202","bee","6D","Power Electronics");
+ns.wed4th("LH-203","bee","8C","Project Managment & Planning");
+ns.wed4th("LH-204","bee","8D","VLSI Design");
+ns.wed4th("WorkShop Lab","BS(ME)","2B","Workshop Practice");
+ns.wed4th("603","BS(ME)","4A","Mechanics of Materials II");
+ns.wed4th("601","BS(ME)","4B","Circuits andElectronics");
+
+ns.wed4th("403","CE","2A","Communication Skills");
+ns.wed4th("407","CE","2B","Civil Engineering Materials");
+ns.wed4th("Geotech","CE","4A","Geotech Lab");
+ns.wed4th("406","CE","4B","Advanced Surveying");
+ns.wed4th("Hydraulics Lab","CE","6A","Water Supply Lab");
+ns.wed4th("Highway Engg Lab","CE","6B","Highway Lab");
+ns.wed4th("401","CE","8A","PPM");
+ns.wed4th("FYP","CE","8B","FYP");
+ns.wed4th("FYP","CE","10A","FYP");
+ns.wed4th("402","CE","12","Matrix Analysis of Structures(R)");
+
+nS.wed5th("EMI & Electronics Lab","bcs","1B","App. Phy. for Engrs.(Lab)");
+nS.wed5th("Lab 6","bcs","1C","Intro. to ICT (Lab)");
+nS.wed5th("Lab-4","bcs","2B","Progr. Fundamentals (Lab)");
+nS.wed5th("LH-105","bcs","2C","Multi. Calculus");
+nS.wed5th("DLD Lab","bcs","3B","DLD (Lab)");
+nS.wed5th("LH-408","bcs","3C","Intro. to Bioinformatics");
+nS.wed5th("LH-501","bcs","3D","Intro. to Bioinformatics");
+nS.wed5th("LH-104","bcs","4B","Comm. Skills");
+
+nS.wed5th("LH-411","bcs","5D","Microprocessor and Assembly Language");
+nS.wed5th("Lab-2","bcs","6A","HCI (Lab)");
+nS.wed5th("LH-101","bcs","6B","Pakistan Studies");
+nS.wed5th("LH-101","bcs","6E","Pakistan Studies");
+nS.wed5th("LH-109","bcs","7B","Systems and Networks Administration");
+nS.wed5th("LH-302","bcs","7C","Artificial Intelligence");
+nS.wed5th("LH-302","bcs","7D","Artificial Intelligence");
+
+nS.wed5th("LH-108","bse","1A","Intro. to Mgt");
+nS.wed5th("bse","1B","");
+nS.wed5th("LH-116","bse","2A","Discrete Structures");
+nS.wed5th("LH-301","bse","2B","Programming Fundamentals");
+nS.wed5th("LH-410","bse","2C","ECA I");
+nS.wed5th("Lab-1","bse","3A","OOP (Lab)");
+nS.wed5th("Lab-5","bse","4B","Database Sys. I (Lab)");
+nS.wed5th("LH-102","bse","6B","S/W Design and Archi");
+ns.wed5th("LH-206","bee","2A","Tutorial 2A");
+ns.wed5th("Adv. Electro Lab","bee","4B","Electronics II Lab");
+ns.wed5th("DSP Lab","bee","4C","S & S Lab");
+ns.wed5th("control & Inst. Lab","bee","6A","Control Lab");
+ns.wed5th("control & Inst. Lab","bee","6B","Control Lab");
+ns.wed5th("LH-208","bee","6C","Engineering Economics");
+ns.wed5th("LH-202","bee","6D","Power Electronics");
+ns.wed5th("LH-201","bee","8C","Power System Analysis");
+ns.wed5th("LH-202","bee","8D","Project Managment & Planning");
+
+ns.wed5th("402","CE","2A","Engg Mech(F)");
+ns.wed5th("402","CE","2B","Engg Mech(F)");
+ns.wed5th("406","CE","4A","Advanced Surveying");
+ns.wed5th("407","CE","4B","Advanced FM");
+ns.wed5th("Highway Engg Lab","CE","6A","Highway Lab");
+ns.wed5th("406","CE","10A","Advanced Surveying");
+ns.wed5th("403","CE","12","Matrix Analysis of Structures(R)");
+
+
+ns.thu1st("LH-303","bcs","1A","Cal. and Ana. Geo.");
+ns.thu1st("Lab-5","bcs","1B","Intro. to ICT (Lab)");
+ns.thu1st("EMI & Electronics Lab","bcs","2B","El;c., Magnetism & Optics (Lab)");
+ns.thu1st("LH-102","bcs","2D","Prof. Practices I");
+ns.thu1st("DLD Lab","bcs","3A","DLD (Lab)");
+ns.thu1st("Lab-1","bcs","3B","Intro. to Bioinfo. (Lab)");
+ns.thu1st("LH-502","bcs","3D","OOP");
+ns.thu1st("LH-103","bcs","4A","Database Systems I");
+ns.thu1st("LH-408","bcs","4B","Stat. & Prob. Theory");
+ns.thu1st("LH-104","bcs","5C","Visual Programming");
+
+
+ns.thu1st("LH-404","bcs","6D","Web Technologies");
+ns.thu1st("LH-109","bcs","6E","Data Warehousing and Data Mining");
+ns.thu1st("LH-302","bcs","7A","Microprocessor and Assembly Language");
+ns.thu1st("LH-302","bcs","7B","Microprocessor and Assembly Language");
+ns.thu1st("Lab-8","bcs","7C","Compiler Const. (Lab)");
+ns.thu1st("Lab-8","bcs","7D","Compiler Const. (Lab)");
+ns.thu1st("LH-405","bcs","8B","Net. Security");
+ns.thu1st("LH-101","bse","1A","Eng. Comp. & Composition");
+ns.thu1st("LH-405","bse","3A","Intro. to Soft. Engr.");
+ns.thu1st("LH-105","bse","3B","Stat. & Prob. Theory");
+ns.thu1st("LH-108","bse","4A","Data Comm. and Comp. ");
+ns.thu1st("Lab 7","bse","4B","Object Orient. Soft. Engr. (Lab)");
+ns.thu1st("Lab-4","bse","6A","Artificial Intelligence (Lab)"); 
+ns.thu1st("LH-410","bse","6B","Soft. Pro.t Mgt");
+ns.thu1st("LH-411","bse","8A","");
+ns.thu1st("LH-103","mcs","mcs-1","Database Systems I");
+ns.thu1st("LH-405","mcs","mcs-2","Intro. to Soft. Engr.");
+ns.thu1st("LH-104","mcs","mcs-3","Visual Programming");
+ns.thu1st("Lab-4","mcs","mcs-4","Artificial Intelligence (Lab)");
+ns.thu1st("LH-202","bee","2B","IPE");
+ns.thu1st("Drawing Hall","bee","2C","ED");
+ns.thu1st("LH-203","bee","4A","S & S");
+ns.thu1st("Adv. Electro Lab","bee","4C","Electronics II Lab");
+ns.thu1st("Computer Lab-3","bee","6A","A&DS Lab");
+ns.thu1st("603","bs(me)","2A","Multivariable Calculus");
+ns.thu1st("601","bs(me)","4A","Mechanics of Materials II");
+ns.thu1st("401","CE","2A","ITCP");
+ns.thu1st("Hydraulics Lab","CE","4A","Advanced FM Lab");
+ns.thu1st("403","CE","4B","NC");
+ns.thu1st("406","CE","6A","Water Supply");
+ns.thu1st("402","CE","6B","Highway Engg.");
+ns.thu1st("407","CE","8B","Entrepreneurship");
+ns.thu1st("Hydraulics Lab","CE","10A","Advanced FM Lab"); 
+ns.thu1st("Hydraulics Lab","CE","12","Advanced FM Lab");
+ns.thu2nd("LH-108","bcs","1A","App. Phy. for Engrs.");
+ns.thu2nd("Lab-5","bcs","1B","Intro. to ICT (Lab)");
+ns.thu2nd("LH-303","bcs","1C","Cal. and Ana. Geo.");
+ns.thu2nd("EMI & Electronics Lab","bcs","2B","Elec., Magnetism & Optics (Lab)");
+ns.thu2nd("LH-105","bcs","2D","Multi. Calculus");
+ns.thu2nd("LH-104","bcs","3A","OOP");
+ns.thu2nd("Lab-1","bcs","3B","Intro. to Bioinfo. (Lab)");
+ns.thu2nd("LH-101","bcs","3D","DLD");
+ns.thu2nd("Lab-2","bcs","4A","Data Comm. and Comp. Net. (Lab)");
+ns.thu2nd("LH-405","bcs","4B","Data Comm. and Comp.Net.");
+ns.thu2nd("LH-502","bcs","5A","Design & Anal. of Algo.");
+ns.thu2nd("LH-502","bcs","5C","Design & Anal. of Algo.");
+ns.thu2nd("LH-404","bcs","5D","Data Warehousing and Data Mining");
+
+ns.thu2nd("Lab-3","bcs","7A","Artificial Intelligence (Lab)");
+ns.thu2nd("Lab-3","bcs","7B","Artificial Intelligence (Lab)");
+ns.thu2nd("Lab-8","bcs","7C","Compiler Const. (Lab)");
+ns.thu2nd("Lab-8","bcs","7D","Compiler Const. (Lab)");
+ns.thu2nd("LH-302","bcs","8A", "HRM");
+ns.thu2nd("LH-109","bse","2A","PF / ITCP");
+ns.thu2nd("LH-103","bse","2B","Prof. Practices IT");
+ns.thu2nd("LH-408","bse","2C","Programming Fundamentals");
+ns.thu2nd("LH-304","bse","3A","OOP");
+ns.thu2nd("Lab 6","bse","4A","Data Struc. and Algo. (Lab)");
+ns.thu2nd("LH-301","bse","4B","Data Comm. and Comp.Net.");
+ns.thu2nd("LH-501","bse","5A","Soft. Qual. Engr.");
+ns.thu2nd("LH-410","bse","5B","Soft. Qual. Engr.");
+ns.thu2nd("Lab-4","bse","6A","Artificial Intelligence (Lab)");
+ns.thu2nd("LH-409","bse","6B","Machine Learning");
+ns.thu2nd("LH-411","bse","8A","Formal Methods in SE");
+ns.thu2nd("LH-109","mcs","mcs-1","PF / ITCP");
+ns.thu2nd("Lab 6","mcs","mcs-2","Data Struc. and Algo. (Lab)");
+ns.thu2nd("LH-301","mcs","mcs-3","Data Comm. and Comp.Net.");
+ns.thu2nd("Lab-4","mcs","mcs-4","Artificial Intelligence (Lab)");
+
+ns.thu2nd("LH-201","bee","2A","Pak Studies");
+ns.thu2nd("LH-204","bee","2B","DLD");
+ns.thu2nd("Drawing Hall","bee","2C","ED");
+ns.thu2nd("LH-202","bee","4A","Machines");
+ns.thu2nd("dv. Electro Lab","bee","4C","Electronics II Lab");
+ns.thu2nd("Computer Lab-3","bee","6A","A&DS Lab");
+ns.thu2nd("LH-207","bee","6C","Contorl Sys");
+ns.thu2nd("Control & Inst. Lab","bee","6D","Control Lab");
+
+
+ns.thu2nd("603","bs(me)","2B","Engineering Statics");
+ns.thu2nd("601","bs(me)","4B","Engineering Fluid Mechanics I");
+ns.thu2nd("403","CE","2A","ITCP");
+ns.thu2nd("402","CE","2B","Civil Engineering Materials");
+ns.thu2nd("401","CE","4A","Basic  analysis Analysis");
+ns.thu2nd("Geotech","CE","4B","Geotech Lab");
+ns.thu2nd("Hydraulics Lab","CE","6A","Water Supply Lab");
+ns.thu2nd("Computer Lab 7","CE","6B","CAD Lab");
+ns.thu2nd("406","CE","8A","Engg Economics");
+ns.thu2nd("407","CE","8B","Irrigation Engg");
+
+ns.thu3rd("LH-304","bcs","1C","App. Phy. for Engrs.");
+ns.thu3rd("LH-408","bcs","2A","Prof. Practices IT");
+ns.thu3rd("LH-104","bcs","2B","Electricity, Magnetism and Optics");
+ns.thu3rd("Lab-4","bcs","2C","Progr. Fundamentals (Lab)");
+ns.thu3rd("LH-303","bcs","3A","Linear Algebra");
+ns.thu3rd("LH-ree108","bcs","3B","OOP");
+ns.thu3rd("LH-409","bcs","3C","S/W Engr. Concepts");
+ns.thu3rd("Lab-2","bcs","4A","Data Comm. and Comp. Net. (Lab)");
+ns.thu3rd("LH-102","bcs","4B","Database Systems I");
+ns.thu3rd("LH-301","bcs","5A","Differential Equations");
+ns.thu3rd("LH-301","bcs","5C","Differential Equations");
+ns.thu3rd("LH-501","bcs","6A","Web Eng. / ESD");
+ns.thu3rd("LH-101","bcs","6B","Machine Learning");
+ns.thu3rd("Lab-8","bcs","6C","Mobile App. Dev. (Lab)");
+ns.thu3rd("LH-404","bcs","6D","Human Comp. Inter.");
+ns.thu3rd("Lab-3","bcs","7A","Artificial Intelligence (Lab)");
+ns.thu3rd("Lab-3","bcs","7B","Artificial Intelligence (Lab)");
+ns.thu3rd("LH-302","bcs","8A", "HRM");
+
+ns.thu3rd("LH-106","bse","1A","Cal. and Ana. Geo.");
+ns.thu3rd("Phy & Circuit Anal. Lab","bse","2A","ECA I (Lab)");
+ns.thu3rd("LH-105","bse","2B","Discrete Structures");
+ns.thu3rd("LH-116","bse","2C","Discrete Structures");
+ns.thu3rd("LH-502","bse","3B","Intro. to Soft. Engr.");
+ns.thu3rd("Lab 6","bse","4A","Data Struc. and Algo. (Lab)");
+ns.thu3rd("LH-109","bse","4B","Comm. Skills");
+ns.thu3rd("LH-410","bse","5A","Differential Equations");
+ns.thu3rd("LH-405","bse","6A","Machine Learning");
+ns.thu3rd("Lab-5","bse","6B","HCI (Lab)");  
+ns.thu3rd("LH-107","bse","7A","Intro. to Sociology"); 
+ns.thu3rd("LH-107","bse","7B","Intro. to Sociology");
+ns.thu3rd("LH-411","bse","8C","Formal Methods in SE");
+
+ns.thu3rd("Lab 6","mcs","mcs-2","Data Struc. and Algo. (Lab)");
+ns.thu3rd("LH-501","mcs","mcs-3","Web Eng. / ESD");
+ns.thu3rd("LH-302","mcs","mcs-4","Net. Security");
+
+
+ns.thu3rd("LH-204","bee","2B","Pak Studies");
+ns.thu3rd("LH-201","bee","2C","IPE");
+ns.thu3rd("LH-203","bee","4A","Electronics II");
+ns.thu3rd("LH-205","bee","4B","Eletronics II");
+ns.thu3rd("LH-207","bee","4C","Multivariable Cal");
+ns.thu3rd("LH-202","bee","6A","Engineering Economics");
+ns.thu3rd("LH-202","bee","6B","engeenering Economics");
+
+ns.thu3rd("Control & Inst. Lab","bee","6D","Control Lab");
+ns.thu3rd("601","bs(me)","4A","Engineering Fluid Mechanics I");
+ns.thu3rd("603","bs(me)","4B","Mechanics of Materials II");
+ns.thu3rd("407","CE","2A","Communication Skills");
+ns.thu3rd("406","CE","2B","Engineering Geology");
+ns.thu3rd("402","CE","4A","Advanced Surveying");
+ns.thu3rd("Geotech","CE","4B","Geotech Lab");
+ns.thu3rd("Hydraulics Lab","CE","6A","Water Supply Lab");
+ns.thu3rd("407","CE","6B","Water Supply");
+ns.thu3rd("401","CE","8A","Entrepreneurship");
+ns.thu3rd("402","CE","10A","Advanced Surveying");
+
+
+ns.thu4rth("LH-101","bcs","1B","App. Phy. for Engrs.");
+ns.thu4rth("LH-103","bcs","2A","Electricity, Magnetism and Optics");
+ns.thu4rth("Lab-4","bcs","2C","Progr. Fundamentals (Lab)");
+ns.thu4rth("LH-405","bcs","2D","Discrete Structures");
+ns.thu4rth("Lab-1","bcs","3B","OOP (Lab)");
+ns.thu4rth("DLD Lab","bcs","3D","DLD (Lab)");
+ns.thu4rth("LH-106","bcs","4A","Comm. Skills");
+ns.thu4rth("Lab-3","bcs","5A","Micropro. and Assembly Language (Lab)");
+ns.thu4rth("Lab-3","bcs","5C","Micropro. and Assembly Language (Lab)");
+ns.thu4rth("LH-105","bcs","5D","Differential Equations");
+ns.thu4rth("LH-107","bcs","6A","Pakistan Studies");
+ns.thu4rth("LH-107","bcs","6B","Pakistan Studies");
+ns.thu4rth("Lab-8","bcs","6C","Mobile App. Dev. (Lab)");
+ns.thu4rth("LH-502","bcs","6D","Pakistan Studies");
+
+ns.thu4rth("LH-102","bse","1B","");
+ns.thu4rth("Lab 6","bse","2A","PF / ITCP (Lab)");
+ns.thu4rth("LH-109","bse","3B","OOP");
+ns.thu4rth("LH-302","bse","4A","Comm. Skills");
+ns.thu4rth("Lab-2","bse","4B","Data Comm. and Comp. Net. (Lab)");
+ns.thu4rth("LH-404","bse","5B","Scripting Languages");
+ns.thu4rth("Lab 7","bse","6A","Soft. Pro.t Mgt (Lab)");
+ns.thu4rth("Lab-5","bse","6B","HCI (Lab)"); 
+ns.thu4rth("LH-301","bse","7A","S/W Eng. Economics"); 
+
+ns.thu4rth("LH-104","bse","8C","HRM");
+ns.thu4rth("Lab 6","mcs","mcs-1","PF / ITCP (Lab)");
+ns.thu4rth("Lab-3","mcs","mcs-2","Micropro. and Assembly Language (Lab)");
+ns.thu4rth("Lab-2","mcs","mcs-3","Data Comm. and Comp. Net. (Lab)");
+
+ns.thu4rth("Drawing Hall","bee","2A","ED");
+ns.thu4rth("LH-204","bee","2C","Pak Studies");
+ns.thu4rth("Adv. Electro Lab","bee","4A","Electronics II Lab");
+ns.thu4rth("LH-201","bee","4B","Machines");
+ns.thu4rth("LH-201","bee","4C","Machines");
+ns.thu4rth("DSP Lab","bee","6A","DCCN Lab");
+ns.thu4rth("DSP Lab","bee","6B","DCCN Lab");
+ns.thu4rth("Control & Inst. Lab","bee","6C","Control Lab");
+ns.thu4rth("Machines & PE","bee","6D","PE Lab");
+ns.thu4rth("603","bs(me)","2A","Engineering Statics");
+ns.thu4rth("601","bs(me)","2B","Thermodynamics I");
+
+ns.thu4rth("403","CE","2A","Engineering Geology");
+ns.thu4rth("407","CE","2B","Communication Skills");
+ns.thu4rth("Surveying Lab","CE","4A","Advanced Surveying Lab");
+
+ns.thu4rth("402","CE","6B","CAD");
+ns.thu4rth("406","CE","8A","RCD II (F)");
+ns.thu4rth("406","CE","8B","RCD II (F)");
+ns.thu4rth("Surveying Lab","CE","10A","Advanced Surveying Lab");
+
+ns.thu5th("LH-411","bcs","1C","Intro. to ICT");
+ns.thu5th("LH-104","bcs","2D","Programming Fundamentals");
+ns.thu5th("Lab-1","bcs","3B","OOP (Lab)");
+ns.thu5th("LH-101","bcs","3C","Intro. to Bioinformatics");
+ns.thu5th("DLD Lab","bcs","3D","DLD (Lab)");
+ns.thu5th("LH-106","bcs","4B","Comm. Skills");
+ns.thu5th("Lab-3","bcs","5A","Micropro. and Assembly Language (Lab)");
+ns.thu5th("Lab-3","bcs","5C","Micropro. and Assembly Language (Lab)");
+ns.thu5th("LH-502","bcs","5D","Design & Anal. of Algo.");
+ns.thu5th("LH-108","bcs","6A","Machine Learning");
+ns.thu5th("Lab-8","bcs","6B","HCI (Lab)");
+ns.thu5th("LH-102","bcs","6C","Pakistan Studies");
+ns.thu5th("Lab-4","bcs","6D","HCI (Lab)");
+ns.thu5th("LH-102","bcs","6E","Pakistan Studies");
+ns.thu5th("LH-304","bcs","7A","Pattern Recognition");
+ns.thu5th("LH-107","bcs","7C","Microprocessor and Assembly Language");
+ns.thu5th("LH-107","bcs","7D","Microprocessor and Assembly Language");
+ns.thu5th("LH-302","bse","1B","Intro. to Mgt");
+ns.thu5th("LH-116","bse","2A","Discrete Structures");
+ns.thu5th("LH-109","bse","2B","ECA I");
+ns.thu5th("LH-410","bse","2C","ECA I");
+ns.thu5th("LH-303","bse","3A","Linear Algebra");
+
+ns.thu5th("Lab-2","bse","4B","Data Comm. and Comp. Net. (Lab)");
+ns.thu5th("LH-408","bse","5A","Scripting Languages");
+ns.thu5th("Lab 7","bse","6A","Soft. Pro.t Mgt (Lab)");
+ns.thu5th("LH-103","bse","7A","S/W Eng. Economics"); 
+ns.thu5th("LH-409","bse","8A","Enterpreneurship");
+
+ns.thu5th("Lab 6","mcs","mcs-1","PF / ITCP (Lab)");
+ns.thu5th("Lab-3","mcs","mcs-2","Micropro. and Assembly Language (Lab)");
+ns.thu5th("Lab-2","mcs","mcs-3","Data Comm. and Comp. Net. (Lab)");
+
+ns.thu5th("Drawing Hall","bee","2A","ED");
+ns.thu5th("LH-204","bee","2B","ECA-I");
+ns.thu5th("Adv. Electro Lab","bee","4A","Electronics II Lab");
+ns.thu5th("LH-205","bee","4B","Tutorial 4B");
+ns.thu5th("LH-201","bee","4C","Electronics II");
+ns.thu5th("DSP Lab","bee","6A","DCCN Lab");
+ns.thu5th("DSP Lab","bee","6B","DCCN Lab");
+ns.thu5th("Control & Inst. Lab","bee","6C","Control Lab");
+ns.thu5th("Machines & PE","bee","6D","PE Lab");
+ns.thu5th("407","CE","2A","Civil Engineering Materials");
+ns.thu5th("403","CE","2B","Differential Equations");
+ns.thu5th("Surveying Lab","CE","4A","Advanced Surveying Lab");
+ns.thu5th("402","CE","6A","Ind. Str. Analysis");
+ns.thu5th("402","CE","6B","Ind. Str. Analysis");
+ns.thu5th("401","CE","8A","Structural Dynamics");
+ns.thu5th("406","CE","8A","Geometric Design");
+ns.thu5th("401","CE","8B","Structural Dynamics");
+ns.thu5th("406","CE","8B","Geometric Design");
+ns.thu5th("Surveying Lab","CE","10A","Advanced Surveying Lab");
+
+
 // Friday 
-nS.fri1st('', '', '', '', '');
+nS.fri1st('room', 'faculty', 'section', 'lecture name');
 
 // console.log(nS.mon);
 
