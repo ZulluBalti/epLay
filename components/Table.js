@@ -2,14 +2,14 @@ import ClassRoom from './ClassRoom';
 import EmptyRoom from './EmptyRoom';
 import Spinner from '../components/Spinner';
 
-export default ({isLoading, whichOne, classInfo, rooms}) => {
+export default ({isLoading, whichOne, classInfo,errors, rooms}) => {
     let markup;
     if (!isLoading && !whichOne)
         return null;
     else if (isLoading) 
         markup = <Spinner />;
     else if (whichOne === 'emptyRoom')
-        markup = <EmptyRoom rooms={rooms}/>;
+        markup = <EmptyRoom rooms={rooms} errors={errors}/>;
     else if(whichOne === 'hasClass')
         markup = <ClassRoom classInfo={classInfo} />;
     
@@ -26,6 +26,7 @@ export default ({isLoading, whichOne, classInfo, rooms}) => {
                     overflow: auto;
                     position: relative;
                     min-height: 100px;
+                    margin-bottom: 88px;
                 }
                
                 @media (min-width: 500px) {

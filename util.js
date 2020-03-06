@@ -1,11 +1,12 @@
 export default function whichSlot(){
+    const day = ['1st', '2nd', '3rd', '4th', '5th'];
     const time = new Date();
     const hour = time.getHours();
     const min = time.getMinutes();
 
     if (hour < 8 || hour >= 17 || (hour === 8 && min < 30) || (hour === 16 && hour > 30)){
 
-        // return res.status(400).json({error: "Hey, are you even in the university?"})
+        return false;
     }
 
     let slot = 0;
@@ -44,5 +45,14 @@ export default function whichSlot(){
             slot = 4;
         
     }
-    return slot;
+
+    return day[slot];
+}
+
+export const whichDay = () => {
+    const time = new Date();
+    const day = time.getDay();
+    const week = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+    if(day === 0 || day === 6) return false;
+    return week[day];
 }

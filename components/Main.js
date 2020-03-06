@@ -24,9 +24,9 @@ const Main = () => {
             const res = await axios.get('/api/emptyRoom');
             const json = res.data;
             if (json.error)
-                setErrors(json.error);
+                setErrors(json.msg);
             else
-                setRooms(json);
+                setRooms(json.data);
             toggleLoading(false);
         }else if(what === 'hasClass') {
             setOne('hasClass');

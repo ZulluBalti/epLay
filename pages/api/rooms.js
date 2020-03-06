@@ -19,8 +19,8 @@ const list = [];
 
 const leftMostSecB = new Block('Secondary gate left most block');
 leftMostSecB.addFloor('101', '107', ['computer lab 1', 'vlsi microprocessor lab']);
-leftMostSecB.addFloor('108', '113', ['computer lab 2', 'advance electronic lab']);
-leftMostSecB.addFloor('114', '115');
+// leftMostSecB.addFloor('108', '113', ['computer lab 2', 'advance electronic lab']);
+// leftMostSecB.addFloor('114', '115');
 
 list.push(leftMostSecB);
 
@@ -85,4 +85,4 @@ bankB.addFloor('', '', [
 
 list.push(bankB);
 
-export default () => console.log("Iron")
+export default list;
